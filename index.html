@@ -10,11 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <style>
         :root {
-            --primary: #4361ee;
-            --primary-light: #4895ef;
-            --dark: #1a1a2e;
-            --light: #f8f9fa;
-            --gradient: linear-gradient(135deg, #4361ee 0%, #3f37c9 100%);
+            --primary: #ababab;
+            --primary-light: #ababab;
+            --dark: #ababab;
+            --light: #ababab;
+            --gradient: linear-gradient(135deg, #212121 0%, #212121  100%);
         }
 
         * {
@@ -37,7 +37,7 @@
             color: white;
             padding: 1.5rem;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px #443dd0;
         }
 
         .logo {
@@ -65,16 +65,16 @@
         }
 
         .qr-generator {
-            background: white;
+            background: #212121;
             border-radius: 15px;
             padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 30px 212121;
         }
 
         .tabs {
             display: flex;
             margin-bottom: 2rem;
-            border-bottom: 2px solid #eee;
+            border-bottom: 2px solid #ababab;
         }
 
         .tab {
@@ -113,7 +113,7 @@
         .input-group select {
             width: 100%;
             padding: 1rem;
-            border: 1px solid #ddd;
+            border: 1px solid #ababab;
             border-radius: 8px;
             font-size: 1rem;
             transition: all 0.3s;
@@ -123,13 +123,12 @@
         .input-group textarea:focus {
             border-color: var(--primary);
             outline: none;
-            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+            box-shadow: 0 0 0 3px #443dd0;
         }
 
         .btn {
             background: var(--gradient);
             color: white;
-            border: none;
             padding: 1rem 2rem;
             border-radius: 8px;
             font-size: 1rem;
@@ -143,14 +142,14 @@
 
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(67, 97, 238, 0.3);
+            box-shadow: 0 8px 20px #443dd0;
         }
 
         .qr-result {
             margin-top: 2rem;
             text-align: center;
             padding: 2rem;
-            background: #f9f9f9;
+            background: #ababab;
             border-radius: 10px;
             display: none;
         }
